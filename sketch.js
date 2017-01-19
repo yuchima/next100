@@ -2,8 +2,8 @@ var honeycomblist = [];
 var honeycomblist2 = [];
 var c = ('#ffffff')
 var a = 8;
-var n = 20;
-var t = 20;
+var n = 40;
+var t = 10;
 var strokec = 120;
 var r, l, rt, lt, rb, lb, pond, index, honeycomb;
 var u, d, rt2, lt2, rb2, lb2, pond2, index2, honeycomb2;
@@ -12,7 +12,7 @@ var u, d, rt2, lt2, rb2, lb2, pond2, index2, honeycomb2;
 
 function setup() {
 
-  createCanvas(windowWidth,windowHeight );
+  createCanvas(windowWidth,windowHeight);
   background(c);
 
   // frameRate(10);
